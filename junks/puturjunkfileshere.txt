@@ -1,0 +1,1 @@
+Put your junk files in this folder then run the javascript with `node Deletor.js`
