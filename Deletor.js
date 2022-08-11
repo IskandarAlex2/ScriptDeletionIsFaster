@@ -20,4 +20,4 @@ Dir.forEach((val) => {
     }
 })
 
-console.log(`Deleted ${HowMany} files (Size total of ${Sizes / 1000000} MB) in ${(new Date().getTime() - StartTime) / 1000} Seconds!`);
+console.log(`Deleted ${HowMany} files (Size total of ${Sizes / 1000000} MB) in ${(TimeStamp() - StartTime) / 1000} Seconds!`);
